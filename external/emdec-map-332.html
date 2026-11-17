@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Itinerário linha 332  / Mapas EMDEC</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	
+	<link rel="stylesheet" href="js/leaflet-v1.9.4/leaflet.css" />
+	<script type="text/javascript" src="js/leaflet-v1.9.4/leaflet.js"></script>
+	
+	<link rel="stylesheet" href="js/leaflet-v1.9.4/plugins/Control.Loading.css" />
+	<script type="text/javascript" src="js/leaflet-v1.9.4/plugins/Control.Loading.js"></script>
+	
+	<link rel="stylesheet" href="js/leaflet-v1.9.4/plugins/L.Control.MousePosition.css" />
+	<script type="text/javascript" src="js/leaflet-v1.9.4/plugins/L.Control.MousePosition.js"></script>
+	
+	<link rel="stylesheet" href="js/leaflet-v1.9.4/plugins/L.Control.Sidebar.css" />
+	<script type="text/javascript" src="js/leaflet-v1.9.4/plugins/L.Control.Sidebar.js"></script>
+	
+	<link rel="stylesheet" href="js/leaflet-v1.9.4/plugins/L.Control.ZoomDisplay.css" />
+	<script type="text/javascript" src="js/leaflet-v1.9.4/plugins/L.Control.ZoomDisplay.js"></script>
+	
+	<link rel="stylesheet" href="js/leaflet-v1.9.4/plugins/leaflet.groupedlayercontrol.min.css" />
+	<script src="js/leaflet-v1.9.4/plugins/leaflet.groupedlayercontrol.min.js"></script>
+	
+	<link rel="stylesheet" href="js/leaflet-v1.9.4/plugins/easy-button.css" />
+	<script src="js/leaflet-v1.9.4/plugins/easy-button.js"></script>
+	
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery-ui-1.12.1.min.js"></script>
+	
+	<script type="text/javascript" src="js/lin_itinerarios-332.js?2026-11-16"></script>
+	<script type="text/javascript" src="js/pto_itinerarios_pontos-332.js?2026-11-16"></script>
+	
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		html, body, #container  {
+		  height: 100%;
+		  overflow: hidden;
+		  width: 100%;
+		}
+		#map {
+		  width: auto;
+		  height: 100%;
+		}
+		.ctl {
+			padding: 2px 10px 2px 10px;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+			text-align: right;
+		}
+		.title {
+			font-size: 12pt;
+			font-weight: bold;
+		}
+		.src {
+			font-size: 8pt;
+		}
+		.leaflet-container {
+			background-color:rgba(255,0,0,0.0);
+		}
+		.commands {
+			padding: 2px 10px 2px 10px;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 9px rgba(0,0,0,0.2);
+			border-radius: 3px;
+			text-align: right;
+		}
+			</style>
+</head>
+<body><div id='map'></div><script>
+	// 1 -------------------------------------------------------------------------------------------------
+    
+    $(document).ready(function () {
+    
+	var map = L.map('map',{zoomControl: true, loadingControl: true} ).setView([-22.88040,-47.03247], 12);
+
+	var southWest = L.latLng(-23.15418,-47.58703),
+		northEast = L.latLng(-22.62758,-46.46993);
+	var bounds = L.latLngBounds(southWest, northEast);
+	map.on('drag', function() {
+		map.panInsideBounds(bounds, { animate: false });
+	});
+	
+	// 2 ---------------------------------------------------------------------------------------------------------
+	
+	var layTMSBaseMap  = L.tileLayer('https://portal.emdec.com.br/tilelayers/tms_basemap/{z}/{x}/{y}.png', {
+		tms: true,
+		opacity: 1,
+		transparent: true,
+		attribution: '&copy; <a href="http://www.emdec.com.br" target="_show">EMDEC</a>',
+		minZoom: 10,
+		maxZoom: 19	}).addTo(map);
+	
+	var layTMSOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		opacity: 0.82,
+		transparent: true,
+		attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',
+		minZoom: 10,
+		maxZoom: 19	});
+	
+	var layTMSGMaps = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+		subdomains:['mt0','mt1','mt2','mt3'],
+		attribution: '&copy; <a href="https://maps.google.com.br/">Google Maps</a>',
+		minZoom: 10,
+		maxZoom: 19	});
+	
+	var baseMaps = {
+		"Mapas EMDEC" : layTMSBaseMap,
+		"OpenStreetMap" : layTMSOSM,
+		"Google Maps" : layTMSGMaps
+		};
+		
+	// 3 -----------------------------------------------------------------------------------------------
+	
+	 // 4 ---------------------------------------------------------------------------------------------------------
+	
+	var popupContent = "";
+	var iconBusStop = L.icon({
+		iconUrl: 'images/icon_marker-bus.png',
+		iconSize: [20, 26],
+		iconAnchor: [10, 26]
+	});
+	var iconBusStart = L.icon({
+		iconUrl: 'images/icon_marker-busStart.png',
+		iconSize: [20, 26],
+		iconAnchor: [10, 26]
+	});
+	var layJSONLinItinerarios = L.geoJson( geoJSONLinItinerarios, {
+
+		filter: function(feature, layer) {
+			if (feature.properties.num_linha == '332'){
+				return true;
+			}
+			return false;
+		}, 
+		style: function(feature) {
+			var strPrefixoLinha = feature.properties.num_linha.substring(0, 1);
+			if (feature.properties.sentido == '1'){
+				switch (strPrefixoLinha) {
+					case '1':   return {color: "#01FFFF", weight : 7, opacity : 0.7, lineJoin: 'round', lineCap: 'round'};
+					case '2':   return {color: "#FE0000", weight : 7, opacity : 0.7, lineJoin: 'round', lineCap: 'round'};
+					case '3':   return {color: "#00FF01", weight : 7, opacity : 0.7, lineJoin: 'round', lineCap: 'round'};
+					case '4':   return {color: "#0000D0", weight : 7, opacity : 0.7, lineJoin: 'round', lineCap: 'round'};
+					case 'B':   return {color: "#E14B22", weight : 7, opacity : 0.7, lineJoin: 'round', lineCap: 'round'};
+				}
+			} else {
+				switch (strPrefixoLinha) {
+					case '1':   return {color: "#01FFFF", weight : 3, opacity : 0.4, lineJoin: 'round', lineCap: 'round', dashArray: '10 5'};
+					case '2':   return {color: "#FE0000", weight : 3, opacity : 0.4, lineJoin: 'round', lineCap: 'round', dashArray: '10 5'};
+					case '3':   return {color: "#00FF01", weight : 3, opacity : 0.4, lineJoin: 'round', lineCap: 'round', dashArray: '10 5'};
+					case '4':   return {color: "#0000D0", weight : 3, opacity : 0.4, lineJoin: 'round', lineCap: 'round', dashArray: '10 5'};
+					case 'B':   return {color: "#E14B22", weight : 3, opacity : 0.4, lineJoin: 'round', lineCap: 'round', dashArray: '10 5'};
+				}
+			}
+		},
+		onEachFeature: function(feature, layer) {
+			popupContent = "";
+			if (feature.properties){
+				if (feature.properties.sentido == '1'){
+					popupContent = popupContent + "<small>";
+					popupContent = popupContent + "<b>Linha:</b> " + showJSONvalue(feature.properties.num_linha) + "<br>";
+					popupContent = popupContent + "<b>Sentido:</b> " + showJSONvalue(feature.properties.sentido) + "<br>";
+					popupContent = popupContent + "<b>Extensão(Km):</b> " + showJSONvalue((feature.properties.extensao_m / 1000).toFixed(1)) + "<br>";
+					popupContent = popupContent + "</small>";
+					
+					layer.bindPopup(popupContent);
+				}
+			}
+		}
+	}).addTo(map);
+	
+	map.setMaxBounds(layJSONLinItinerarios.getBounds());
+	map.fitBounds(layJSONLinItinerarios.getBounds());
+	var seqPontos = 0;
+	var layJSONPtoItinerariosPontos = L.geoJson( geoJSONPtoItinerariosPontos, {
+
+		filter: function(feature, layer) {
+			if (feature.properties.num_linha == '332' && feature.properties.sentido == '1'){
+				return true;
+			}
+			return false;
+		},
+		pointToLayer(feature, latlng) {
+			if (seqPontos == 0 ){
+				return L.marker(latlng, {icon: iconBusStart});
+			} else {
+				return L.marker(latlng, {icon: iconBusStop});
+			}
+		},
+		onEachFeature: function(feature, layer) {
+			seqPontos=seqPontos+1;
+			popupContent = "";
+			if (feature.properties){
+				popupContent = popupContent + "<small>" +
+				'&nbsp;<a target="_show" href="http://www.google.com/maps?layer=c&cbll=' + feature.geometry.coordinates[1] + ',' + 
+				feature.geometry.coordinates[0] + '"><img src="images/icon_googleview.png"></a>&nbsp;';
+				popupContent = popupContent + "<b>Linha:</b> " + showJSONvalue(feature.properties.num_linha) + "<br>";
+				popupContent = popupContent + "<b>Sentido:</b> " + showJSONvalue(feature.properties.sentido) + "<br>";
+				popupContent = popupContent + "<b>ID Ponto:</b> " + showJSONvalue(feature.properties.ponto_id) + "<br>";
+				popupContent = popupContent + "<b>Endereço:</b> " + showJSONvalue(feature.properties.ende_logradouro) + "," + showJSONvalue(feature.properties.ende_numero) + "<br>";
+				popupContent = popupContent + "</small>";
+				
+				layer.bindPopup(popupContent);
+			}
+		}
+	}).addTo(map);
+	
+	var overlayMaps = {
+		//"Visualização":{
+			"Padrão": layJSONLinItinerarios
+		//}
+	};
+	
+	var ovMapsOptions = {
+	  //exclusiveGroups: ["Visualização"],
+	  collapsed: true
+	};
+		
+	//titulo app
+	var ctlTitle = L.control();
+	ctlTitle.onAdd = function(map) {
+		this._div = L.DomUtil.create('div', 'ctl title');
+		this.update();
+		return this._div;
+	};
+	ctlTitle.update = function(props) {
+		this._div.innerHTML = "<table border='0' cellspacing='0'><tr><td valign='middle'>Linha 332</td><td valign='middle'><img src='images/emdec_logo-small.png'></td></tr></table>";
+	};
+	ctlTitle.addTo(map);
+	
+	var ctrLayers = 	L.control.layers(baseMaps).addTo(map);
+	map.setMinZoom(map.getZoom());
+
+	var ctrScale = L.control.scale({metric: true, imperial: false, maxWidth: 200, updateWhenIdle: true}).addTo(map);
+	
+	var ctrMouseCoords = L.control.mousePosition({numDigits:'5',prefix: ' '}).addTo(map);
+
+    });
+    
+	function showJSONvalue (pValue){
+		if (pValue === null ) {
+			return "-";
+		} else {
+			return pValue;
+		}
+	}
+	
+</script></body></html>

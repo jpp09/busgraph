@@ -1,0 +1,3338 @@
+{
+  "coletado_em": "2026-11-16T23:02:43.314411+00:00",
+  "linhas_descobertas": 224,
+  "linhas_coletadas": 220,
+  "registros_paradas": 14783,
+  "trechos": 13884,
+  "falhas": [
+    {
+      "linha": "126.1",
+      "erro": "Nenhuma parada válida"
+    },
+    {
+      "linha": "209.1",
+      "erro": "Nenhuma parada válida"
+    },
+    {
+      "linha": "265.1",
+      "erro": "Nenhuma parada válida"
+    },
+    {
+      "linha": "394.1",
+      "erro": "Nenhuma parada válida"
+    }
+  ],
+  "revisao": [
+    {
+      "linha": "101",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-101.js",
+      "arquivo_original": "originais/0001.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE UNIVERSITARIO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "102",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-102.js",
+      "arquivo_original": "originais/0002.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "RECANTO DO SOL"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "103",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-103.js",
+      "arquivo_original": "originais/0003.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "DIC II E III (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "104",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-104.js",
+      "arquivo_original": "originais/0004.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "DIC IV (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "105",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-105.js",
+      "arquivo_original": "originais/0005.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "COHAB I (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "106",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-106.js",
+      "arquivo_original": "originais/0006.js",
+      "avisos": []
+    },
+    {
+      "linha": "107",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-107.js",
+      "arquivo_original": "originais/0007.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM MELINA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "108",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-108.js",
+      "arquivo_original": "originais/0008.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM AERONAVE I (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "109",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-109.js",
+      "arquivo_original": "originais/0009.js",
+      "avisos": []
+    },
+    {
+      "linha": "110",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-110.js",
+      "arquivo_original": "originais/0010.js",
+      "avisos": []
+    },
+    {
+      "linha": "111",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-111.js",
+      "arquivo_original": "originais/0011.js",
+      "avisos": []
+    },
+    {
+      "linha": "112",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-112.js",
+      "arquivo_original": "originais/0012.js",
+      "avisos": []
+    },
+    {
+      "linha": "113",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-113.js",
+      "arquivo_original": "originais/0013.js",
+      "avisos": []
+    },
+    {
+      "linha": "114",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-114.js",
+      "arquivo_original": "originais/0014.js",
+      "avisos": [
+        {
+          "registro": 50,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM MELINA / CORREDOR CENTRAL (INCLUSIVO) (DIAS UTEIS)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              38.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "115",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-115.js",
+      "arquivo_original": "originais/0015.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "ADHEMAR DE BARROS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "116",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-116.js",
+      "arquivo_original": "originais/0016.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE / SHOPPING DOM PEDRO (INCLUSIVO)",
+            "TERMINAL VIDA NOVA/TERMINAL CENTRAL (EXPRESSA)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "117",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-117.js",
+      "arquivo_original": "originais/0017.js",
+      "avisos": [
+        {
+          "registro": 49,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "DIC VI (INCLUSIVO) (DIAS UTEIS)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "118",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-118.js",
+      "arquivo_original": "originais/0018.js",
+      "avisos": []
+    },
+    {
+      "linha": "119",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-119.js",
+      "arquivo_original": "originais/0019.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "120",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-120.js",
+      "arquivo_original": "originais/0020.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "122",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-122.js",
+      "arquivo_original": "originais/0021.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL VIDA NOVA / CAMPINAS SHOPPING (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              6.5
+            ],
+            [
+              "2",
+              101.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "123",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-123.js",
+      "arquivo_original": "originais/0022.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL CAMPO GRANDE /TERMINAL OURO VERDE",
+            "TERMINAL CAMPO GRANDE /TERMINAL OURO VERDETERMINAL CAMPO GRANDE /TERMINAL OURO VERDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "124",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-124.js",
+      "arquivo_original": "originais/0023.js",
+      "avisos": []
+    },
+    {
+      "linha": "125",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-125.js",
+      "arquivo_original": "originais/0024.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE / SHOPPING IGUATEMI (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "126",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-126.js",
+      "arquivo_original": "originais/0025.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VIDA NOVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "127",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-127.js",
+      "arquivo_original": "originais/0027.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VIDA NOVA II"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              16.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "128",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-128.js",
+      "arquivo_original": "originais/0028.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL VIDA NOVA / TERMINAL OURO VERDE (INCLUSIVO)",
+            "VIDA NOVA/TERMINAL MERCADO I (CORUJAO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "129",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-129.js",
+      "arquivo_original": "originais/0029.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA PARK"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "131",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-131.js",
+      "arquivo_original": "originais/0030.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL VIDA NOVA/TERMINAL CENTRAL (EXPRESSA)",
+            "VIDA NOVA/TERMINAL MERCADO I (CORUJAO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              74.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "132",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-132.js",
+      "arquivo_original": "originais/0031.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL VIDA NOVA / TERMINAL METROPOLITANO",
+            "TERMINAL VIDA NOVA / TERMINAL OURO VERDE (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              5.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "133",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-133.js",
+      "arquivo_original": "originais/0032.js",
+      "avisos": [
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              33.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "134",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-134.js",
+      "arquivo_original": "originais/0033.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE",
+            "TERMINAL VIDA NOVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "135",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-135.js",
+      "arquivo_original": "originais/0034.js",
+      "avisos": [
+        {
+          "registro": 48,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM FILADLFIA (INCLUSIVO)",
+            "JARDIM SAN DIEGO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "136",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-136.js",
+      "arquivo_original": "originais/0035.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VIDA NOVA"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              5.0
+            ],
+            [
+              "2",
+              88.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "137",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-137.js",
+      "arquivo_original": "originais/0036.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "379",
+            "91"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "138",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-138.js",
+      "arquivo_original": "originais/0037.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "99"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "143",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-143.js",
+      "arquivo_original": "originais/0038.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM SANTA TEREZINHA (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              33.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "144",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-144.js",
+      "arquivo_original": "originais/0039.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM CAPIVARI"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "150",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-150.js",
+      "arquivo_original": "originais/0040.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "999"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "152",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-152.js",
+      "arquivo_original": "originais/0041.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL VILA UNIAO III"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "153",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-153.js",
+      "arquivo_original": "originais/0042.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM. VL. UNIÃO",
+            "TERMINAL VILA UNIAO (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              40.0
+            ],
+            [
+              "2",
+              73.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "154",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-154.js",
+      "arquivo_original": "originais/0043.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM VL UNIAO",
+            "TERMINAL VILA UNIAO"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              27.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "158",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-158.js",
+      "arquivo_original": "originais/0044.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "99"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "161",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-161.js",
+      "arquivo_original": "originais/0045.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL VIDA NOVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "163",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-163.js",
+      "arquivo_original": "originais/0046.js",
+      "avisos": [
+        {
+          "registro": 77,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM VL UNIAO",
+            "TERMINAL CENTRAL"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              19.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "164",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-164.js",
+      "arquivo_original": "originais/0047.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM CENTRAL",
+            "TERM VL UNIAO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "165",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-165.js",
+      "arquivo_original": "originais/0048.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM PAULICEIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "171",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-171.js",
+      "arquivo_original": "originais/0049.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL CENTRAL / CAMBUI (INCLUSIVO)",
+            "VILA PALMEIRAS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "173",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-173.js",
+      "arquivo_original": "originais/0050.js",
+      "avisos": [
+        {
+          "registro": 0,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PQ. ITALIA",
+            "VILA FORMOSA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "177",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-177.js",
+      "arquivo_original": "originais/0051.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "DIC IV e V (DIAS UTEIS)",
+            "TERMINAL OURO VERDE / AEROPORTO DE VIRACOPOS (VIA DIC IV)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "179",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-179.js",
+      "arquivo_original": "originais/0052.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM SAO DOMINGOS / TERMINAL MERCADO I (CORUJAO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              56.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "180",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-180.js",
+      "arquivo_original": "originais/0053.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM SANTO ANTONIO (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              16.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "185",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-185.js",
+      "arquivo_original": "originais/0054.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM FERNANDA / VIRACOPOS"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "186",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-186.js",
+      "arquivo_original": "originais/0055.js",
+      "avisos": []
+    },
+    {
+      "linha": "187",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-187.js",
+      "arquivo_original": "originais/0056.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              40.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "188",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-188.js",
+      "arquivo_original": "originais/0057.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM CENTRAL",
+            "TERMINAL OURO VERDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "189",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-189.js",
+      "arquivo_original": "originais/0058.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM CAMPITUBA"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              62.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "190",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-190.js",
+      "arquivo_original": "originais/0059.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM SAO DOMINGOS"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "191",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-191.js",
+      "arquivo_original": "originais/0060.js",
+      "avisos": []
+    },
+    {
+      "linha": "192",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-192.js",
+      "arquivo_original": "originais/0061.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VL. DIVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "193",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-193.js",
+      "arquivo_original": "originais/0062.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL BARAO GERALDO/RODOVIARIA (INCLUSIVO)",
+            "TERMINAL OURO VERDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "194",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-194.js",
+      "arquivo_original": "originais/0063.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM CENTRAL",
+            "TERM. CENTRAL"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "195",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-195.js",
+      "arquivo_original": "originais/0064.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA PALMEIRAS (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              20.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "196",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-196.js",
+      "arquivo_original": "originais/0065.js",
+      "avisos": []
+    },
+    {
+      "linha": "197",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-197.js",
+      "arquivo_original": "originais/0066.js",
+      "avisos": [
+        {
+          "registro": 39,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL ITAJAI (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "198",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-198.js",
+      "arquivo_original": "originais/0067.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "199",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-199.js",
+      "arquivo_original": "originais/0068.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VIDA NOVA/TERMINAL MERCADO I (CORUJAO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              33.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "200",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-200.js",
+      "arquivo_original": "originais/0069.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM CAMPO GRANDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "201",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-201.js",
+      "arquivo_original": "originais/0070.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM SANTA ROSA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "202",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-202.js",
+      "arquivo_original": "originais/0071.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE VALENCA II"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "203",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-203.js",
+      "arquivo_original": "originais/0072.js",
+      "avisos": [
+        {
+          "registro": 16,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "CAMPINA GRANDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "204",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-204.js",
+      "arquivo_original": "originais/0073.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PQ. DA FLORESTA"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              6.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "205",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-205.js",
+      "arquivo_original": "originais/0074.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL CAMPO GRANDE /TERMINAL OURO VERDE",
+            "TERMINAL OURO VERDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "206",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-206.js",
+      "arquivo_original": "originais/0075.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SANTA CLARA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "207",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-207.js",
+      "arquivo_original": "originais/0076.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM NOVO MUNDO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "208",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-208.js",
+      "arquivo_original": "originais/0077.js",
+      "avisos": [
+        {
+          "registro": 15,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL ITAJAI (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "209",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-209.js",
+      "arquivo_original": "originais/0078.js",
+      "avisos": [
+        {
+          "registro": 12,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "CHACARA CRUZEIRO DO SUL"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "210",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-210.js",
+      "arquivo_original": "originais/0080.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM. OURO VERDE",
+            "TERMINAL CAMPO GRANDE /TERMINAL OURO VERDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "211",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-211.js",
+      "arquivo_original": "originais/0081.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE / SHOPPING DOM PEDRO (INCLUSIVO)",
+            "VILA ESPERANCA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "212",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-212.js",
+      "arquivo_original": "originais/0082.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL ITAJAI (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "213",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-213.js",
+      "arquivo_original": "originais/0083.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE",
+            "VIDA NOVA/TERMINAL MERCADO I (CORUJAO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "214",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-214.js",
+      "arquivo_original": "originais/0084.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL ITAJAI (SEMI EXPRESSA) (INCLUSIVO)",
+            "VILA PADRE MANOEL DA NOBREGA I"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "215",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-215.js",
+      "arquivo_original": "originais/0085.js",
+      "avisos": [
+        {
+          "registro": 15,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL ITAJAI (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "216",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-216.js",
+      "arquivo_original": "originais/0086.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM ITAJAI / TERM CAMPO GRANDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "217",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-217.js",
+      "arquivo_original": "originais/0087.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL ITAJAI (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "218",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-218.js",
+      "arquivo_original": "originais/0088.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM ITAJAI / TERM CAMPO GRANDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "219",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-219.js",
+      "arquivo_original": "originais/0089.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE",
+            "VIDA NOVA/TERMINAL MERCADO I (CORUJAO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              92.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "220",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-220.js",
+      "arquivo_original": "originais/0090.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM. OURO VERDE",
+            "VILA PADRE MANOEL DA NOBREGA I"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "226",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-226.js",
+      "arquivo_original": "originais/0091.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "RESIDENCIAL SIRIUS II"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "227",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-227.js",
+      "arquivo_original": "originais/0092.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM FLORENCE II"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "230",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-230.js",
+      "arquivo_original": "originais/0093.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "IPAUSSURAMA / PQ DAS RESEDAS",
+            "TERMINAL OURO VERDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "231",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-231.js",
+      "arquivo_original": "originais/0094.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL OURO VERDE",
+            "TERMINAL OURO VERDE / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              1.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "232",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-232.js",
+      "arquivo_original": "originais/0095.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SATELITE IRIS IV (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "233",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-233.js",
+      "arquivo_original": "originais/0096.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM FLORENCE I (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "234",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-234.js",
+      "arquivo_original": "originais/0097.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SATELITE IRIS III (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "235",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-235.js",
+      "arquivo_original": "originais/0098.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "RESIDENCIAL SIRIUS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "239",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-239.js",
+      "arquivo_original": "originais/0099.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERM. OURO VERDE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "240",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-240.js",
+      "arquivo_original": "originais/0100.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL VIDA NOVA",
+            "VILA TEIXEIRA / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              75.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "241",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-241.js",
+      "arquivo_original": "originais/0101.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA PADRE MANOEL DA NOBREGA I"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "242",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-242.js",
+      "arquivo_original": "originais/0102.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL BARAO GERALDO/RODOVIARIA (INCLUSIVO)",
+            "VILA PADRE ANCHIETA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "243",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-243.js",
+      "arquivo_original": "originais/0103.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "97"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              11.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "244",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-244.js",
+      "arquivo_original": "originais/0104.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA TEIXEIRA / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              28.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "245",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-245.js",
+      "arquivo_original": "originais/0105.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA TEIXEIRA / SHOPPING DOM PEDRO (INCLUSIVO)",
+            "VL. TEIXEIRA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "249",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-249.js",
+      "arquivo_original": "originais/0106.js",
+      "avisos": [
+        {
+          "registro": 88,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SHOPPING DOM PEDRO/SHOPPING IGUATEMI",
+            "TERMINAL OURO VERDE / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "250",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-250.js",
+      "arquivo_original": "originais/0107.js",
+      "avisos": []
+    },
+    {
+      "linha": "251",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-251.js",
+      "arquivo_original": "originais/0108.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL VIDA NOVA / TERMINAL METROPOLITANO",
+            "VILA PADRE ANCHIETA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "252",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-252.js",
+      "arquivo_original": "originais/0109.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE SAO JORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "253",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-253.js",
+      "arquivo_original": "originais/0110.js",
+      "avisos": [
+        {
+          "registro": 0,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SWIFT / VILA BOA VISTA (INCLUSIVO)",
+            "VILA OROSIMBO MAIA (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              40.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "254",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-254.js",
+      "arquivo_original": "originais/0111.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL PADRE ANCHIETA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "255",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-255.js",
+      "arquivo_original": "originais/0112.js",
+      "avisos": [
+        {
+          "registro": 35,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE VIA NORTE (INCLUSIVO)",
+            "SWIFT / VILA BOA VISTA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "256",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-256.js",
+      "arquivo_original": "originais/0113.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE SAO JORGE / HOSPITAL DAS CLINICAS (INCLUSIVO)",
+            "VILA FORMOSA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "257",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-257.js",
+      "arquivo_original": "originais/0114.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE SAO JORGE/SEMI-EXPRESSO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "260",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-260.js",
+      "arquivo_original": "originais/0115.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA MARIETA / ESTACAO CIDADE JUDICIARIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "261",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-261.js",
+      "arquivo_original": "originais/0116.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA PADRE ANCHIETA",
+            "VL. RÉGGIO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "263",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-263.js",
+      "arquivo_original": "originais/0117.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMNINAL PADRE ANCHIETA",
+            "VILA PADRE ANCHIETA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "264",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-264.js",
+      "arquivo_original": "originais/0118.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA TEIXEIRA / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "265",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-265.js",
+      "arquivo_original": "originais/0119.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SOUSAS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "266",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-266.js",
+      "arquivo_original": "originais/0121.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SHOPPING DOM PEDRO/SHOPPING IGUATEMI (INCLUSIVO)",
+            "TERMINAL PADRE ANCHIETA / TERMINAL BARAO GERALDO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "269",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-269.js",
+      "arquivo_original": "originais/0122.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL PADRE ANCHIETA/TERMINAL BARAO GERALDO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "271",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-271.js",
+      "arquivo_original": "originais/0123.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PADRE ANCHIETA",
+            "VILA OROSIMBO MAIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "273",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-273.js",
+      "arquivo_original": "originais/0124.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SWIFT / VILA BOA VISTA (INCLUSIVO)",
+            "VILA PADRE ANCHIETA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "289",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-289.js",
+      "arquivo_original": "originais/0125.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "ITAJAI IV/TERMINAL MERCADO I (CORUJAO)",
+            "TERMINAL CAMPO GRANDE /TERMINAL OURO VERDE"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              11.0
+            ],
+            [
+              "1",
+              19.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "299",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-299.js",
+      "arquivo_original": "originais/0126.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "NOVA APARECIDA (CORUJAO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "300",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-300.js",
+      "arquivo_original": "originais/0127.js",
+      "avisos": [
+        {
+          "registro": 0,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SOUSAS / TERMINAL BARAO GERALDO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "309",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-309.js",
+      "arquivo_original": "originais/0128.js",
+      "avisos": [
+        {
+          "registro": 21,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE CIDADE/TERMINAL MERCADO I (CORUJAO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "310",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-310.js",
+      "arquivo_original": "originais/0129.js",
+      "avisos": [
+        {
+          "registro": 22,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA OLIMPIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "311",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-311.js",
+      "arquivo_original": "originais/0130.js",
+      "avisos": [
+        {
+          "registro": 15,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA ESPERANCA",
+            "VILA MARIETA /SHOPPING DOM PEDRO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "312",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-312.js",
+      "arquivo_original": "originais/0131.js",
+      "avisos": [
+        {
+          "registro": 12,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA ESPERANCA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "313",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-313.js",
+      "arquivo_original": "originais/0132.js",
+      "avisos": [
+        {
+          "registro": 14,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "CDHU - AMARAIS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "314",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-314.js",
+      "arquivo_original": "originais/0133.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL PADRE ANCHIETA / TERMINAL BARAO GERALDO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "315",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-315.js",
+      "arquivo_original": "originais/0134.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SAN MARTIN / CDHU AMARAIS"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "316",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-316.js",
+      "arquivo_original": "originais/0135.js",
+      "avisos": [
+        {
+          "registro": 22,
+          "motivo": "duplicata exata removida"
+        }
+      ]
+    },
+    {
+      "linha": "317",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-317.js",
+      "arquivo_original": "originais/0136.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM SAO JOSE / JARDIM SAO MARCOS",
+            "PARQUE SAO JORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "318",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-318.js",
+      "arquivo_original": "originais/0137.js",
+      "avisos": [
+        {
+          "registro": 0,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "registro": 1,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "registro": 40,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "registro": 41,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA OROSIMBO MAIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "319",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-319.js",
+      "arquivo_original": "originais/0138.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE CIDADE / TERMINAL BARAO GERALDO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "320",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-320.js",
+      "arquivo_original": "originais/0139.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "REAL PARQUE II"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "321",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-321.js",
+      "arquivo_original": "originais/0140.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JOCKEY CLUB"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "322",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-322.js",
+      "arquivo_original": "originais/0141.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILLAGE CAMPINAS"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              17.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "323",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-323.js",
+      "arquivo_original": "originais/0142.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA HOLANDIA (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              69.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "324",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-324.js",
+      "arquivo_original": "originais/0143.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA SANTA ISABEL / TERMINAL BARAO GERALDO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "325",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-325.js",
+      "arquivo_original": "originais/0144.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA SANTA ISABEL / TERMINAL BARAO GERALDO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "328",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-328.js",
+      "arquivo_original": "originais/0145.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "GUARA (INCLUSIVO)",
+            "PARQUE DOS ALECRINS / CIDADE JUDICIARIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "329",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-329.js",
+      "arquivo_original": "originais/0146.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL BARAO GERALDO / CIDADE JUDICIARIA (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              15.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "329.1",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-329.1.js",
+      "arquivo_original": "originais/0147.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL CAMPO GRANDE/ TERMINAL BARAO GERALDO (INCLUSIVO)",
+            "VILA MARIETA / ESTACAO CIDADE JUDICIARIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "330",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-330.js",
+      "arquivo_original": "originais/0148.js",
+      "avisos": []
+    },
+    {
+      "linha": "331",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-331.js",
+      "arquivo_original": "originais/0149.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA FORMOSA (INCLUSIVO)",
+            "VILA OROSIMBO MAIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "332",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-332.js",
+      "arquivo_original": "originais/0150.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "HOSPITAL DAS CLINICAS",
+            "JARDIM GARCIA / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              43.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "333",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-333.js",
+      "arquivo_original": "originais/0151.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL BARAO GERALDO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "336",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-336.js",
+      "arquivo_original": "originais/0152.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL BARAO GERALDO/HOSPITAL DAS CLINICAS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "337",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-337.js",
+      "arquivo_original": "originais/0153.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL BARAO GERADO/UNICAMP/HOSPITAL CLINICAS(INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "338",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-338.js",
+      "arquivo_original": "originais/0154.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL BARAO GERALDO/SHOPPING IGUATEMI (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              53.5
+            ],
+            [
+              "2",
+              82.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "339",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-339.js",
+      "arquivo_original": "originais/0155.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "CIDADE UNIVERSITARIA/TERMINAL MERCADO I (CORUJAO)",
+            "TERMINAL MERCADO I (CORUJAO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "341",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-341.js",
+      "arquivo_original": "originais/0156.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE JAMBEIRO/TERMINAL MERCADO I (CORUJAO)",
+            "VILA FORMOSA (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              27.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "342",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-342.js",
+      "arquivo_original": "originais/0157.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "LEROY MERLIN / RODOVIÁRIA (INCLUSIVO)",
+            "TERMINAL VIDA NOVA (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              38.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "344",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-344.js",
+      "arquivo_original": "originais/0158.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "ESTACAO PARQUE PRADO (INCLUSIVO)",
+            "VILA MARIETA /SHOPPING DOM PEDRO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "345",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-345.js",
+      "arquivo_original": "originais/0159.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA MARIETA / ESTACAO CIDADE JUDICIARIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "346",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-346.js",
+      "arquivo_original": "originais/0160.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM CARLOS LOURENCO (INCLUSIVO)",
+            "JD CARLOS LOURENCO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "348",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-348.js",
+      "arquivo_original": "originais/0161.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA MARIETA / ESTACAO CIDADE JUDICIARIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "349",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-349.js",
+      "arquivo_original": "originais/0162.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA FORMOSA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "350",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-350.js",
+      "arquivo_original": "originais/0163.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "GARGANTILHA / ESTACAO CIDADE JUDICIARIA",
+            "VILA MARIETA / ESTACAO CIDADE JUDICIARIA"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              29.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "351",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-351.js",
+      "arquivo_original": "originais/0164.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "RECANTO DOS DOURADOS / ESTACAO CIDADE JUDICIARIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "352",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-352.js",
+      "arquivo_original": "originais/0165.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM SAO VICENTE / PARQUE ITALIA (INCLUSIVO)",
+            "VILA TEIXEIRA / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              32.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "353",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-353.js",
+      "arquivo_original": "originais/0166.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "IPAUSSURAMA / PQ DAS RESEDAS",
+            "VILA DIVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "355",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-355.js",
+      "arquivo_original": "originais/0167.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA GENESIS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "356",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-356.js",
+      "arquivo_original": "originais/0168.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "RECANTO DOS DOURADOS / ESTACAO CIDADE JUDICIARIA",
+            "TERMINAL VILA UNIAO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "357",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-357.js",
+      "arquivo_original": "originais/0169.js",
+      "avisos": []
+    },
+    {
+      "linha": "358",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-358.js",
+      "arquivo_original": "originais/0170.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "RECANTO DOS DOURADOS / ESTACAO CIDADE JUDICIARIA",
+            "TERMINAL BARAO GERALDO / CIDADE JUDICIARIA (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              28.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "359",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-359.js",
+      "arquivo_original": "originais/0171.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM ESMERALDINA / ESTACAO CIDADE JUDICIARIA",
+            "VILA GENESIS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "360",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-360.js",
+      "arquivo_original": "originais/0172.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PROENCA / CASTELO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "361",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-361.js",
+      "arquivo_original": "originais/0173.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PROENCA / CASTELO (INCLUSIVO)",
+            "VILA MARIETA /SHOPPING DOM PEDRO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "362",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-362.js",
+      "arquivo_original": "originais/0174.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE BRASILIA VIA TAQUARAL (INCLUSIVO)",
+            "TERMINAL VIDA NOVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "364",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-364.js",
+      "arquivo_original": "originais/0175.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SHOPPING DOM PEDRO/SHOPPING IGUATEMI (INCLUSIVO)",
+            "TERMINAL CAMPO GRANDE / SHOPPING IGUATEMI (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              25.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "366",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-366.js",
+      "arquivo_original": "originais/0176.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA OROSIMBO MAIA (INCLUSIVO)",
+            "VL OROSIMBO MAIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "367",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-367.js",
+      "arquivo_original": "originais/0177.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM BARONESA (INCLUSIVO)",
+            "PARQUE SAO JORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "368",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-368.js",
+      "arquivo_original": "originais/0178.js",
+      "avisos": [
+        {
+          "registro": 48,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "NOTRE DAME",
+            "PARQUE SAO JORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "369",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-369.js",
+      "arquivo_original": "originais/0179.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE IMPERADOR/VILA 31 DE MARCO (INCLUSIVO)",
+            "TERMINAL VIDA NOVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "371",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-371.js",
+      "arquivo_original": "originais/0180.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA MARIETA / ESTACAO CIDADE JUDICIARIA",
+            "VILA TEIXEIRA / SHOPPING DOM PEDRO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "375",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-375.js",
+      "arquivo_original": "originais/0181.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "ALPHAVILLE D. PEDRO",
+            "SOUSAS / TERMINAL BARAO GERALDO"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              3.5
+            ],
+            [
+              "2",
+              57.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "377",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-377.js",
+      "arquivo_original": "originais/0182.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA MARIETA /SHOPPING DOM PEDRO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "380",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-380.js",
+      "arquivo_original": "originais/0183.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL CENTRAL / CAMBUI (INCLUSIVO)",
+            "VILA OLIMPIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "381",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-381.js",
+      "arquivo_original": "originais/0184.js",
+      "avisos": [
+        {
+          "registro": 66,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SHOPPING DOM PEDRO/SHOPPING IGUATEMI",
+            "SHOPPING DOM PEDRO/SHOPPING IGUATEMI (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "382",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-382.js",
+      "arquivo_original": "originais/0185.js",
+      "avisos": [
+        {
+          "registro": 59,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL CENTRAL / CAMBUI (INCLUSIVO)",
+            "TERMINAL VIDA NOVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "383",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-383.js",
+      "arquivo_original": "originais/0186.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "LEROY MERLIN / RODOVIÁRIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "385",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-385.js",
+      "arquivo_original": "originais/0187.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SHOPPING IGUATEMI / RODOVIARIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "386",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-386.js",
+      "arquivo_original": "originais/0188.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "RODOVIARIA",
+            "TERMINAL VIDA NOVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "389",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-389.js",
+      "arquivo_original": "originais/0189.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "ESTACAO SOUSAS"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "390",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-390.js",
+      "arquivo_original": "originais/0190.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SOUSAS (INCLUSIVO)",
+            "TERMINAL CENTRAL / CAMBUI (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "391",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-391.js",
+      "arquivo_original": "originais/0191.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "NOVA SOUSAS (INCLUSIVO)",
+            "VILA ESPERANCA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "392",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-392.js",
+      "arquivo_original": "originais/0192.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA DIVA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "393",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-393.js",
+      "arquivo_original": "originais/0193.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "CABRAS / ESTACAO SOUSAS"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "394",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-394.js",
+      "arquivo_original": "originais/0194.js",
+      "avisos": [
+        {
+          "registro": 20,
+          "motivo": "duplicata exata removida"
+        }
+      ]
+    },
+    {
+      "linha": "395",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-395.js",
+      "arquivo_original": "originais/0196.js",
+      "avisos": []
+    },
+    {
+      "linha": "396",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-396.js",
+      "arquivo_original": "originais/0197.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SOUSAS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "397",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-397.js",
+      "arquivo_original": "originais/0198.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "LEROY MERLIN / RODOVIÁRIA (INCLUSIVO)",
+            "NOVA APARECIDA (CORUJAO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "398",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-398.js",
+      "arquivo_original": "originais/0199.js",
+      "avisos": []
+    },
+    {
+      "linha": "399",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-399.js",
+      "arquivo_original": "originais/0200.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JOAQUIM EGIDIO/TERMINAL MERCADO I (CORUJAO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              33.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "401",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-401.js",
+      "arquivo_original": "originais/0201.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE FIGUEIRA / SWISS PARK",
+            "RESIDENCIAL SIRIUS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "402",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-402.js",
+      "arquivo_original": "originais/0202.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE FIGUEIRA / SWISS PARK",
+            "RESIDENCIAL SIRIUS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "403",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-403.js",
+      "arquivo_original": "originais/0203.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SWISS PARK"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "404",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-404.js",
+      "arquivo_original": "originais/0204.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM PETRÓPOLIS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "405",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-405.js",
+      "arquivo_original": "originais/0205.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM PETRÓPOLIS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "408",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-408.js",
+      "arquivo_original": "originais/0206.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "TERMINAL BARAO GERALDO/RODOVIARIA (INCLUSIVO)",
+            "VILA MARIETA /SHOPPING DOM PEDRO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "409",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-409.js",
+      "arquivo_original": "originais/0207.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA OROSIMBO MAIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "410",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-410.js",
+      "arquivo_original": "originais/0208.js",
+      "avisos": [
+        {
+          "registro": 46,
+          "motivo": "duplicata exata removida"
+        }
+      ]
+    },
+    {
+      "linha": "411",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-411.js",
+      "arquivo_original": "originais/0209.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE OZIEL VIA JARDIM DO LAGO II"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "412",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-412.js",
+      "arquivo_original": "originais/0210.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE ELDORADO (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "413",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-413.js",
+      "arquivo_original": "originais/0211.js",
+      "avisos": [
+        {
+          "registro": 43,
+          "motivo": "duplicata exata removida"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE OZIEL VIA JARDIM DO LAGO II"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "414",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-414.js",
+      "arquivo_original": "originais/0212.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE OZIEL (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "415",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-415.js",
+      "arquivo_original": "originais/0213.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE OZIEL VIA JARDIM DO LAGO II",
+            "SALTINHO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "416",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-416.js",
+      "arquivo_original": "originais/0214.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "RODOVIARIA",
+            "VILA OROSIMBO MAIA (INCLUSIVO)"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "2",
+              94.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "422",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-422.js",
+      "arquivo_original": "originais/0215.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "JARDIM NOVA AMERICA (INCLUSIVO)",
+            "TERM. CENTRAL"
+          ]
+        },
+        {
+          "motivo": "sequências conflitantes; registros preservados",
+          "sequencias": [
+            [
+              "1",
+              27.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "429",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-429.js",
+      "arquivo_original": "originais/0216.js",
+      "avisos": [
+        {
+          "registro": 0,
+          "motivo": "identificador, sentido ou sequência inválidos"
+        },
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SWISS PARK"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "430",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-430.js",
+      "arquivo_original": "originais/0217.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA PALMEIRAS (INCLUSIVO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "431",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-431.js",
+      "arquivo_original": "originais/0218.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "REFORMA AGRARIA",
+            "SALTINHO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "432",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-432.js",
+      "arquivo_original": "originais/0219.js",
+      "avisos": []
+    },
+    {
+      "linha": "433",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-433.js",
+      "arquivo_original": "originais/0220.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "NOSSA SENHORA DE LOURDES (INCLUSIVO)",
+            "SALTINHO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "434",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-434.js",
+      "arquivo_original": "originais/0221.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE FIGUEIRA / SWISS PARK",
+            "SALTINHO"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "489",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-489.js",
+      "arquivo_original": "originais/0222.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "PARQUE JAMBEIRO/TERMINAL MERCADO I (CORUJAO)",
+            "VIDA NOVA/TERMINAL MERCADO I (CORUJAO)"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "499",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-499.js",
+      "arquivo_original": "originais/0223.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "SWISS PARK",
+            "VILA MARIETA / ESTACAO CIDADE JUDICIARIA"
+          ]
+        }
+      ]
+    },
+    {
+      "linha": "502",
+      "origem": "https://portal.emdec.com.br/itinerarios/js/pto_itinerarios_pontos-502.js",
+      "arquivo_original": "originais/0224.js",
+      "avisos": [
+        {
+          "motivo": "nome do mapa diverge da consulta",
+          "nomes_mapa": [
+            "VILA OROSIMBO MAIA (INCLUSIVO)"
+          ]
+        }
+      ]
+    }
+  ],
+  "limites": "Linhas retornadas pela busca por dígitos; cobertura total da rede não garantida. Tempos ausentes."
+}
