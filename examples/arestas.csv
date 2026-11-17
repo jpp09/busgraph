@@ -1,6 +1,0 @@
-origem,destino,linha,duracao_min
-Terminal A,Parada B,101,8
-Parada B,Centro,101,12
-Terminal A,Parada C,205,6
-Parada C,Centro,205,18
-Centro,Parada D,101,7

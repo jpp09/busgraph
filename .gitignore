@@ -1,0 +1,72 @@
+# Bytecode e caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+.env/
+.docx-venv/
+
+# Variáveis locais e segredos
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Build e empacotamento
+build/
+dist/
+*.spec
+*.egg
+*.egg-info/
+.eggs/
+sdist/
+wheels/
+pip-wheel-metadata/
+MANIFEST
+
+# Testes, cobertura e análise estática
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Saídas locais de ferramentas do projeto
+graphify-out/

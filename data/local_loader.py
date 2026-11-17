@@ -46,3 +46,12 @@ def load_local_dataset(directory=DEFAULT_DATASET):
     edges["custo_trecho"] = 1.0
     report = json.loads((directory / "relatorio.json").read_text(encoding="utf-8"))
     return edges, names, report
+
+
+def load_map_stops(directory=DEFAULT_DATASET):
+    """Carrega somente as paradas com coordenadas numéricas válidas."""
+    stops = pd.read_csv(Path(directory) / "paradas.csv", dtype=str, keep_default_na=False)
+    for column in ("latitude", "longitude"):
+        stops[column] = pd.to_numeric(stops[column], errors="coerce")
+    valid = stops.latitude.between(-90, 90) & stops.longitude.between(-180, 180)
+    return stops.loc[valid].copy()
