@@ -143,7 +143,7 @@ Execute:
 .\dist\BusGraph.exe
 ```
 
-Uma janela de console será aberta para manter o servidor local em execução, e a aplicação será carregada no navegador padrão. Não feche essa janela enquanto estiver usando o BusGraph. Para encerrar, volte ao console e pressione `Ctrl+C` ou feche a janela.
+Uma janela de console será aberta para manter o servidor local em execução. O BusGraph procura uma porta livre a partir de `8501` e abre no navegador somente quando o servidor estiver pronto. Não feche essa janela enquanto estiver usando o BusGraph. Para encerrar, volte ao console e pressione `Ctrl+C` ou feche a janela.
 
 Na primeira abertura, o Windows pode demorar alguns segundos para descompactar o executável em uma pasta temporária.
 
@@ -200,7 +200,7 @@ Verifique a conexão com a internet. O mapa usa tiles do OpenStreetMap, e as geo
 
 ### A porta 8501 já está em uso
 
-Feche outra instância do BusGraph ou outro processo Streamlit antes de abrir o executável novamente.
+O launcher procura automaticamente outra porta livre até `8520`. O endereço correto é mostrado na janela do console.
 
 ### O Windows exibe um alerta ao abrir o `.exe`
 

@@ -43,6 +43,7 @@ def main():
         "--noconfirm",
         "--clean",
         "--onefile",
+        "--noupx",
         "--name",
         "BusGraph",
         "--collect-all",
